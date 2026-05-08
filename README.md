@@ -1,4 +1,4 @@
-# Portfolio — Ainaz Nobakhtvand
+# Portfolio = Ainaz Nobakhtvand
 
 **MSc student in Biomedical Engineering** | Image Processing · Signal Processing · Machine Learning  
 📧 ainaz.nobakhtvand@umfiasi.ro
@@ -13,7 +13,7 @@ This repository showcases my research and course-based projects in biomedical si
 
 ## Projects
 
-### 1. 🧠 Perceptual Decision-Making in Autism and Dyslexia *(Master's Thesis — In Progress)*
+### 1. 🧠 Perceptual Decision-Making in Autism and Dyslexia *(Master's Thesis = In Progress)*
 **`EEG-Perceptual-DecisionMaking-Autism-Dyslexia/`**
 
 A multi-dataset EEG study comparing perceptual decision-making across children with Autism Spectrum Disorder (ASD), developmental dyslexia, and typically developing (TD) controls. This work replicates and extends two landmark studies (Manning et al., 2022) using a unified Drift-Diffusion Model (DDM) + EEG framework — the first direct autism–dyslexia comparison of this kind. Analysis begins from pre-processed EEG data (MATLAB), with RCA, Unfold deconvolution, DDM fitting, and ML classification performed independently.
@@ -84,7 +84,7 @@ Image processing and classification pipeline applied to a pre-existing Optical C
 A musculoskeletal modelling pipeline for analysing gait biomechanics in post-stroke patients vs healthy controls, built around OpenSim. Covers the full workflow from raw motion capture data to joint reaction forces and muscle force outputs, with custom Python scripts for data conversion, processing, and visualisation.
 
 **Key methods:**
-- Data sourced from Van Criekinge et al. (2023) — a public full-body motion capture dataset of 138 able-bodied adults and 50 stroke survivors (*Scientific Data*)
+- Data sourced from Van Criekinge et al. (2023) = a public full-body motion capture dataset of 138 able-bodied adults and 50 stroke survivors (*Scientific Data*)
 - Three post-stroke individuals (mild, moderate, severe hemiparesis) compared against two healthy controls
 - Force plate data conversion: CSV → OpenSim-compatible GRF `.mot` files, including Centre of Pressure (CoP) calculation from forces and moments across 4 force plates
 - OpenSim pipeline: Inverse Kinematics (IK), Inverse Dynamics (ID), Static Optimisation (SO), Joint Reaction Analysis (JRA), and Forward Dynamics (FD)
