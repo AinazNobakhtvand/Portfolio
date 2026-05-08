@@ -1,4 +1,4 @@
-# Portfolio = Ainaz Nobakhtvand
+# Portfolio - Ainaz Nobakhtvand
 
 **MSc student in Biomedical Engineering** | Image Processing · Signal Processing · Machine Learning  
 📧 ainaz.nobakhtvand@umfiasi.ro
@@ -7,16 +7,16 @@
 
 ## About
 
-This repository showcases my research and course-based projects in biomedical signal and image processing, with a focus on EEG analysis, medical image segmentation, and machine learning. The projects span neuroscience, ophthalmology, oncology, and biomechanics — reflecting my interest in applying computational methods to real clinical and research problems.
+This repository showcases my research and course-based projects in biomedical signal and image processing, with a focus on EEG analysis, medical image segmentation, and machine learning. The projects span neuroscience, ophthalmology, oncology, and biomechanics - reflecting my interest in applying computational methods to real clinical and research problems.
 
 ---
 
 ## Projects
 
-### 1. 🧠 Perceptual Decision-Making in Autism and Dyslexia *(Master's Thesis = In Progress)*
+### 1. 🧠 Perceptual Decision-Making in Autism and Dyslexia *(Master's Thesis - In Progress)*
 **`EEG-Perceptual-DecisionMaking-Autism-Dyslexia/`**
 
-A multi-dataset EEG study comparing perceptual decision-making across children with Autism Spectrum Disorder (ASD), developmental dyslexia, and typically developing (TD) controls. This work replicates and extends two landmark studies (Manning et al., 2022) using a unified Drift-Diffusion Model (DDM) + EEG framework — the first direct autism–dyslexia comparison of this kind. Analysis begins from pre-processed EEG data (MATLAB), with RCA, Unfold deconvolution, DDM fitting, and ML classification performed independently.
+A multi-dataset EEG study comparing perceptual decision-making across children with Autism Spectrum Disorder (ASD), developmental dyslexia, and typically developing (TD) controls. This work replicates and extends two landmark studies (Manning et al., 2022) using a unified Drift-Diffusion Model (DDM) + EEG framework - the first direct autism–dyslexia comparison of this kind. Analysis begins from pre-processed EEG data (MATLAB), with RCA, Unfold deconvolution, DDM fitting, and ML classification performed independently.
 
 **Key methods:**
 - EEG preprocessing pipeline: band-pass filtering, ICA, ASR, average re-referencing (MNE-Python / EEGLAB)
