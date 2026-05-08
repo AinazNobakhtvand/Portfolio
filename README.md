@@ -1,4 +1,4 @@
-# Portfolio - Ainaz Nobakhtvand
+# Portfolio — Ainaz Nobakhtvand
 
 **MSc student in Biomedical Engineering** | Image Processing · Signal Processing · Machine Learning  
 📧 ainaz.nobakhtvand@umfiasi.ro
@@ -7,16 +7,16 @@
 
 ## About
 
-This repository showcases my research and course-based projects in biomedical signal and image processing, with a focus on EEG analysis, medical image segmentation, and machine learning. The projects span neuroscience, ophthalmology, oncology, and biomechanics - reflecting my interest in applying computational methods to real clinical and research problems.
+This repository showcases my research and course-based projects in biomedical signal and image processing, with a focus on EEG analysis, medical image segmentation, and machine learning. The projects span neuroscience, ophthalmology, oncology, and biomechanics — reflecting my interest in applying computational methods to real clinical and research problems.
 
 ---
 
 ## Projects
 
 ### 1. 🧠 Perceptual Decision-Making in Autism and Dyslexia *(Master's Thesis — In Progress)*
-**`Master-Thesis-EEG-Autism-Dyslexia/`**
+**`EEG-Perceptual-DecisionMaking-Autism-Dyslexia/`**
 
-A multi-dataset EEG study comparing perceptual decision-making across children with Autism Spectrum Disorder (ASD), developmental dyslexia, and typically developing (TD) controls. This work replicates and extends two landmark studies (Manning et al., 2022) using a unified Drift-Diffusion Model (DDM) + EEG framework - the first direct autism–dyslexia comparison of this kind. Analysis begins from pre-processed EEG data (MATLAB), with RCA, Unfold deconvolution, DDM fitting, and ML classification performed independently.
+A multi-dataset EEG study comparing perceptual decision-making across children with Autism Spectrum Disorder (ASD), developmental dyslexia, and typically developing (TD) controls. This work replicates and extends two landmark studies (Manning et al., 2022) using a unified Drift-Diffusion Model (DDM) + EEG framework — the first direct autism–dyslexia comparison of this kind. Analysis begins from pre-processed EEG data (MATLAB), with RCA, Unfold deconvolution, DDM fitting, and ML classification performed independently.
 
 **Key methods:**
 - EEG preprocessing pipeline: band-pass filtering, ICA, ASR, average re-referencing (MNE-Python / EEGLAB)
@@ -32,7 +32,7 @@ A multi-dataset EEG study comparing perceptual decision-making across children w
 ---
 
 ### 2. 🔬 EEG Face/Car Stimulus Classification *(Course Project)*
-**`Perceptual-Decision-Making-EEG/`**
+**`EEG-Perceptual-DecisionMaking-FaceCar/`**
 
 Analysis and classification of a 64-channel EEG dataset (216 trials) from a visual stimulus paradigm, investigating neural discrimination between face and car stimuli. Starting from pre-processed, epoched EEGLAB data, the project covers ERP analysis, dimensionality reduction, and multi-classifier comparison to identify the most discriminative brain features.
 
@@ -84,9 +84,11 @@ Image processing and classification pipeline applied to a pre-existing Optical C
 A musculoskeletal modelling pipeline for analysing gait biomechanics in post-stroke patients vs healthy controls, built around OpenSim. Covers the full workflow from raw motion capture data to joint reaction forces and muscle force outputs, with custom Python scripts for data conversion, processing, and visualisation.
 
 **Key methods:**
+- Data sourced from Van Criekinge et al. (2023) — a public full-body motion capture dataset of 138 able-bodied adults and 50 stroke survivors (*Scientific Data*)
+- Three post-stroke individuals (mild, moderate, severe hemiparesis) compared against two healthy controls
 - Force plate data conversion: CSV → OpenSim-compatible GRF `.mot` files, including Centre of Pressure (CoP) calculation from forces and moments across 4 force plates
-- OpenSim pipeline integration: Inverse Kinematics (IK), Inverse Dynamics (ID), Joint Reaction Analysis (JRA), and Forward Dynamics (FD) via XML configuration scripts
-- Gait cycle normalisation (0–100%) and comparison of hip, knee, and ankle kinematics between post-stroke and healthy subjects
+- OpenSim pipeline: Inverse Kinematics (IK), Inverse Dynamics (ID), Static Optimisation (SO), Joint Reaction Analysis (JRA), and Forward Dynamics (FD)
+- Gait cycle normalisation (0–100%) and comparison of hip, knee, and ankle kinematics across stroke severities
 - Visualisation of joint reaction forces, muscle forces, and sub-muscle contributions across the gait cycle
 
 **Tech stack:** Python, OpenSim, Mokka, NumPy, Pandas, Matplotlib, Seaborn
@@ -102,8 +104,8 @@ A musculoskeletal modelling pipeline for analysing gait biomechanics in post-str
 | Machine Learning | SVM, Random Forest, XGBoost, SHAP, scikit-learn |
 | Deep Learning | TensorFlow, Keras, CNN architectures |
 | Statistical Modelling | Hierarchical Bayesian DDM, Bayes factors, R (hDDM, MatchIt) |
-| Biomechanics / Musculoskeletal | OpenSim, IK, ID, JRA, GRF processing, gait analysis |
-| Languages | Python, MATLAB, R |
+| Biomechanics / Musculoskeletal | OpenSim, Mokka, IK, ID, JRA, GRF processing, gait analysis |
+| Languages | Python, R, MATLAB |
 
 ---
 
@@ -112,11 +114,11 @@ A musculoskeletal modelling pipeline for analysing gait biomechanics in post-str
 ```
 Portfolio/
 ├── README.md
-├── Master-Thesis-EEG-Autism-Dyslexia/   # MSc thesis (in progress)
-├── Perceptual-Decision-Making-EEG/       # EEG course project
-├── Pituitary-Tumor-Segmentation/         # Deep learning, MRI segmentation
-├── OCT-Image-Analysis/                   # Classical image processing + ML
-└── Biomechanics-Data-Processing/         # Post-stroke gait analysis (OpenSim)
+├── EEG-Perceptual-DecisionMaking-Autism-Dyslexia/   # MSc thesis (in progress)
+├── EEG-Perceptual-DecisionMaking-FaceCar/            # EEG course project
+├── Pituitary-Tumor-Segmentation/                     # Deep learning, CT segmentation
+├── OCT-Image-Analysis/                               # Image processing + ML
+└── Biomechanics-Data-Processing/                     # Post-stroke gait analysis
 ```
 
 ---
