@@ -73,7 +73,7 @@ Analysis begins from pre-processed EEG data provided as MATLAB `.m` files (band-
 
 ---
 
-## Repository Contents
+## Repository Contents (will be added after the project is compeletely done)
 
 ```
 EEG-Perceptual-DecisionMaking-Autism-Dyslexia/
