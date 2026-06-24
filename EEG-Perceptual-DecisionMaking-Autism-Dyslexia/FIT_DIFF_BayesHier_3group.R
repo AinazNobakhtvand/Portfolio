@@ -34,13 +34,13 @@ set.seed(2024)
 test_mode <- FALSE
 
 # 0. Paths
-autism_csv   <- "D:/uni/Thesis/datasets/autism/EEGdata/CathyManningData/Data_Matched_Round2_Autism.csv"
-dyslexia_csv <- "D:/uni/Thesis/datasets/dyslexia/EEG data/BehavData_Matched_Round2_Dyslexia.csv"
+autism_csv   <- "path/to/Data_Matched_Round2_Autism.csv"
+dyslexia_csv <- "path/to/BehavData_Matched_Round2_Dyslexia.csv"
 
 if (!exists("task_num"))   task_num   <- 1
 if (!exists("task_label")) task_label <- "coherence"
 
-out_dir <- file.path("D:/uni/Thesis/code/R/DDM/3group/3group", task_label, fsep = "/")
+out_dir <- file.path("your path/", task_label, fsep = "/")
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
 n_cores <- if (exists("n_cores_use")) n_cores_use else 5
