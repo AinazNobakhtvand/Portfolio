@@ -40,7 +40,7 @@ dyslexia_csv <- "path/to/BehavData_Matched_Round2_Dyslexia.csv"
 if (!exists("task_num"))   task_num   <- 1
 if (!exists("task_label")) task_label <- "coherence"
 
-out_dir <- file.path("your path/", task_label, fsep = "/")
+out_dir <- file.path("your_path/", task_label, fsep = "/")
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
 n_cores <- if (exists("n_cores_use")) n_cores_use else 5
